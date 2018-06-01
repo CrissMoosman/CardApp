@@ -26,6 +26,11 @@ $(document).ready(function() {
     
     //Get deck event handler
     $("#getDeck").click(function(){
+      
+    
+        //Clear UI before getting new deck 
+        $("#fullDeck").val("");
+        deckCards = new Array();
         
         //First loop over the cardSuits array
         for(var i = 0; i < cardSuits.length; i++)
