@@ -13,3 +13,5 @@ cardApp.js – file that contains javaScript to handle the functionality for the
 
 cardApp.css – file that contains some basic styling for the UI
 
+To run application - Run Tasks gulp:dev
+
